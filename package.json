@@ -1,0 +1,26 @@
+{
+  "name": "@awesome-os/blink",
+  "version": "0.1.0",
+  "description": "Modular Blink HTML/CSS/DOM component shard wired to Awesome-OS b8g-ghost cas-v1 (Shared V8, Skia, Dawn, libbrotli, libwebp, libexpat) for Sectium Browser and libelectron",
+  "type": "module",
+  "license": "BSD-3-Clause",
+  "main": "./src/index.mts",
+  "module": "./src/index.mts",
+  "types": "./src/index.mts",
+  "exports": {
+    ".": "./src/index.mts",
+    "./hydrate": "./src/hydrate.mts",
+    "./config/blink-component-cas.gn": "./config/blink-component-cas.gn"
+  },
+  "scripts": {
+    "test": "node --test test/blink-cas.test.mts",
+    "audit": "node src/hydrate.mts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awesome-os/blink.git"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

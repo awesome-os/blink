@@ -2,6 +2,26 @@
 
 Modular Blink HTML/CSS/DOM component shard wired to Awesome-OS **`b8g-ghost @ cas-v1`** for **Sectium Browser** and **`libelectron`**.
 
+## Quick Install & Usage
+
+### Install via `pnpm` (or release tarball)
+
+```powershell
+pnpm add github:awesome-os/blink
+```
+
+Or download the latest SHA-256 verified archive from [`Releases`](https://github.com/awesome-os/blink/releases/latest).
+
+### Usage & Verification
+
+```powershell
+# Print live JSON audit of Blink cas-v1 prerequisite shards
+node src/hydrate.mts
+
+# Verify locally (Node.js 22+)
+node --test
+```
+
 ## Why Modular Shards Eliminate 4-Hour Monolith Rebuilds
 
 Traditional Chromium and Electron builds compile V8, Skia, Dawn, Blink, and dozens of C/C++ third-party libraries into a single multi-gigabyte monolith — turning even minor DOM or UI changes into 4-hour rebuilds and multi-minute links.

@@ -1,0 +1,52 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/blink",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/blink/blink-v0.2.0.tar.zst",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "3d3f42290f672bc4065b84ee5584379eb946443bb19d49d85c0dd1f5eb8005abd7ff2a77aed38a181d68ea00b9ad1a6ecb631f0143acf83fbe03bf05778f4917",
+      "size": 6282,
+      "executable": false,
+      "blob": "v11/files/3d/3d3f42290f672bc4065b84ee5584379eb946443bb19d49d85c0dd1f5eb8005abd7ff2a77aed38a181d68ea00b9ad1a6ecb631f0143acf83fbe03bf05778f4917",
+      "url": "https://github.com/awesome-os/blink/releases/download/v0.2.0/blink-v0.2.0.tar.zst",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/blink/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "de9f6717154f3e1126f507b1a58329a9a9363f8edb35533f0cbc1bd2f2b1e279cf813f54caadadbc2ac0fa899da9186f14ea3b13d33cdf4b30f591b1fcd5f42a",
+      "size": 87,
+      "executable": false,
+      "blob": "v11/files/de/de9f6717154f3e1126f507b1a58329a9a9363f8edb35533f0cbc1bd2f2b1e279cf813f54caadadbc2ac0fa899da9186f14ea3b13d33cdf4b30f591b1fcd5f42a",
+      "url": "https://github.com/awesome-os/blink/releases/download/v0.2.0/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/blink/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "9992a0e19dc3d6af838cfba26b63127eb957c5c30c1dc2599fdd8b9ef09884f2c2f3fd791ecef03e208cbd4ced436b91e90e79549a214bf02e6640a4f5012504",
+      "size": 151,
+      "executable": false,
+      "blob": "v11/files/99/9992a0e19dc3d6af838cfba26b63127eb957c5c30c1dc2599fdd8b9ef09884f2c2f3fd791ecef03e208cbd4ced436b91e90e79549a214bf02e6640a4f5012504",
+      "url": "https://github.com/awesome-os/blink/releases/download/v0.2.0/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}

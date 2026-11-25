@@ -60,3 +60,13 @@ node src/hydrate.mts
 ## License
 
 BSD-3-Clause
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/blink@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://node/blink?from=repository://github.com/awesome-os/blink@main"
+```

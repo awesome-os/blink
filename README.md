@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consolidated into https://github.com/awesome-os/chromium-baseline
+
 # `@awesome-os/blink`
 
 Modular Blink HTML/CSS/DOM component shard wired to Awesome-OS **`b8g-ghost @ cas-v1`** for **Sectium Browser** and **`libelectron`**.
